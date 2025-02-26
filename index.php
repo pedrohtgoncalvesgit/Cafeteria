@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <title>Cafeteria</title>
 </head>
 <body>
-    <header>
+    
+    <header class="header">
         <section>
-        <a href="index.php" class="logo"></a>
-        <img src="Img/menu-1.png" alt="">
-
+            <a href="" class="logo">
+                <img src="Img/menu-1.png" alt="">
+            </a>
+            
         <nav class="navbar">
            <a href="">Home</a>
            <a href="#sobre">Sobre</a>
            <a href="#menu">Menu</a>
            <a href="#avaliacao">Avaliações</a>
            <a href="#endereco">Endereço</a>  
-          
+        </nav>
+    
             <div class="icons">
             <!-- LINK DA IMAGEM DA LUPA -->
             <svg width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><path d="M15.25 0a8.25 8.25 0 0 0-6.18 13.72L1 
@@ -29,7 +33,6 @@
             <path d="M2 2h4v4h16v11H4V4H2V2zm4 13h14V8H6v7zm0 4h3v3H6v-3zm14 0h-3v3h3v-3z" fill="#000000"/></svg>
 
             </div>
-        </nav>
     </section>
     </header>
 </body>

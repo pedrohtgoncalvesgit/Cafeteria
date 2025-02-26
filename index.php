@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/styles.css">
+    
     <title>Cafeteria</title>
 </head>
-<body>
-    
+<body>   
+<!-- Inicio Header -->
+
     <header class="header">
         <section>
             <a href="" class="logo">
@@ -34,6 +36,39 @@
 
             </div>
     </section>
-    </header>
+ </header>
+    <!-- FIM HEADER  -->
+
+    <!-- Começo Banner  -->
+     <img src="Img/Design sem nome (3).png" alt="" class="banner">
+    <!-- Fim Banner  -->
+    
+    <!-- Começo sobre nós  -->
+    <section class="about" id="about">
+        <h2 class="title">Sobre <span>Nós</span> </h2>
+        <div class="row">
+            <div class="container-image">
+                <img src="Img/cafe1.jpg" alt="image-sobre " style="width: 95%;">
+            </div>
+
+            <div class="content">
+                <h2>O que faz o nosso café especial</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed natus laudantium n
+                    isi? Dolorum mollitia temporibus facilis autem quod voluptates quibusdam? Optio ducimus illum deserunt iste
+                    rem error temporibus blanditiis culpa!
+                </p>
+                <br>
+                <br>
+                    <a href="" class="btn">Saiba Mais </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Fim sobre nos  -->
+
+
 </body>
 </html>

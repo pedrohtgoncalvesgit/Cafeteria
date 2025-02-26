@@ -14,7 +14,7 @@
         border: none;
         text-decoration: none;
         text-transform: capitalize;
-        transition: 0.2 linear;
+        transition: 0.2s linear;
     }
 
     body{
@@ -58,6 +58,15 @@
     .navbar a:hover {
        color: var(--main-color);
        border-bottom: 0.1rem solid rgba(248, 201, 82, 0.3);
-       padding-bottom: 0.7rem;
+       padding-bottom: 0.5rem;
+       font-size: 2rem;
 
+    }
+    .icons svg{ 
+        margin: 1rem;
+        cursor: pointer;
+    }
+    .icons svg:hover{ 
+      width: 35px;
+      height: 35px;
     }

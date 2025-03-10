@@ -76,7 +76,7 @@
  
         <div class="flex">
             <div class="card">
-                <img src="Img/Cafe .webp" alt="Denim Jeans" style="width:100%">
+                <img src="Img/Cafe .webp" alt="Denim Jeans" style="width:100%;border-radius:20px 20px 0px 0px;">
                 <h1>Café Expresso</h1><br>
                 <p class="price">R$19.99</p>
                 <br>
@@ -87,7 +87,7 @@
             </div>
 
             <div class="card">
-                <img src="Img/Cafe 2.webp" alt="Denim Jeans" style="width:100%">
+                <img src="Img/Cafe 2.webp" alt="Denim Jeans" style="width:100%;border-radius:20px 20px 0px 0px;">
                 <h1>Café Expresso</h1><br>
                 <p class="price">R$19.99</p>
                 <br>
@@ -98,7 +98,7 @@
             </div>
            
                 <div class="card">
-                    <img src="Img/cafe 3.jpg" alt="Denim Jeans" style="width:100%">
+                    <img src="Img/cafe 3.jpg" alt="Denim Jeans" style="width:100%;border-radius:20px 20px 0px 0px;">
                     <h1>Café Expresso</h1><br>
                     <p class="price">R$19.99</p>
                     <br>
@@ -160,13 +160,13 @@
             <h3 class="footer-cafeteria__col-titulo">Redes Sociais</h3>
             <div class="footer-cafeteria__col-icons">
                 <a href="https://facebook.com" target="_blank" class="footer-cafeteria__col-social-icon">
-                    <i class="footer-cafeteria__col-icon-facebook fab fa-facebook-f"></i>
+                    <img style="width: 40px;" src="Img/instagram.png" alt="">
                 </a>
                 <a href="https://instagram.com" target="_blank" class="footer-cafeteria__col-social-icon">
-                    <i class="footer-cafeteria__col-icon-instagram fab fa-instagram"></i>
+                <img style="width: 40px;" src="Img/facebook.png" alt="">
                 </a>
                 <a href="https://twitter.com" target="_blank" class="footer-cafeteria__col-social-icon">
-                    <i class="footer-cafeteria__col-icon-twitter fab fa-twitter"></i>
+                <img style="width: 40px;" src="Img/twitter.png" alt="">
                 </a>
             </div>
         </div>

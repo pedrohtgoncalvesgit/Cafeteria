@@ -17,7 +17,10 @@
         text-transform: capitalize;
         transition: 0.2s linear;
         color: var(--white);
+        list-style: none;
     }
+
+  
 
     body{
         background-color: var(--bg);
@@ -173,3 +176,96 @@
       }
 
       /* ----- FIM PRODUTOS------ */
+      
+    /* Estilos do Footer da Cafeteria com Classes Exclusivas */
+/* Estilos do Footer da Cafeteria com Classes Exclusivas e Layout em Colunas */
+
+
+.footer-cafeteria {
+    background-color:var(--bg);
+    color: #ecf0f1;
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    
+}
+
+.footer-cafeteria__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    box-shadow: 0 2px 0px 0px rgba(255, 255, 255, 0.2);
+}
+
+/* Estilos das Colunas */
+.footer-cafeteria__col {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-cafeteria__col-titulo {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #7f573d;
+}
+
+.footer-cafeteria__col-texto {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-cafeteria__col-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-cafeteria__col-item {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.footer-cafeteria__col-icon {
+    margin-right: 10px;
+    color: #f39c12;
+}
+
+/* Estilos para Redes Sociais */
+.footer-cafeteria__col-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-cafeteria__col-social-icon {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-cafeteria__col-social-icon:hover {
+    color: #f39c12; /* Cor dourada ao passar o mouse */
+    transform: scale(1.1);
+}
+
+.footer-cafeteria__col-social-icon-facebook:hover {
+    color: #3b5998; /* Cor do Facebook */
+}
+
+.footer-cafeteria__col-social-icon-instagram:hover {
+    color: #e4405f; /* Cor do Instagram */
+}
+
+.footer-cafeteria__col-social-icon-twitter:hover {
+    color: #1da1f2; /* Cor do Twitter */
+}
+
+/* Ícones de Contato */
+.footer-cafeteria__col-icon {
+    color: #f39c12;
+    margin-right: 10px;
+}
+

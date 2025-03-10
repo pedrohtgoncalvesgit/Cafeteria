@@ -42,7 +42,7 @@
             </div>
         </section>
     </header>
-    <!-- FIM HEADER  -->
+    <!-- Fim Header  -->
 
     <!-- Começo Banner  -->
     <img src="Img/Design sem nome (3).png" alt="" class="banner">
@@ -70,11 +70,13 @@
         </div>
     </section>
     <!-- Fim sobre nós  -->
+
+    <!-- Produtos -->
     <h2 class="title">Produ <span>tos</span> </h2>
  
         <div class="flex">
             <div class="card">
-                <img src="Img/cafe2.jpg" alt="Denim Jeans" style="width:100%">
+                <img src="Img/Cafe .webp" alt="Denim Jeans" style="width:100%">
                 <h1>Café Expresso</h1><br>
                 <p class="price">R$19.99</p>
                 <br>
@@ -85,7 +87,7 @@
             </div>
 
             <div class="card">
-                <img src="Img/cafe2.jpg" alt="Denim Jeans" style="width:100%">
+                <img src="Img/Cafe 2.webp" alt="Denim Jeans" style="width:100%">
                 <h1>Café Expresso</h1><br>
                 <p class="price">R$19.99</p>
                 <br>
@@ -96,7 +98,7 @@
             </div>
            
                 <div class="card">
-                    <img src="Img/cafe2.jpg" alt="Denim Jeans" style="width:100%">
+                    <img src="Img/cafe 3.jpg" alt="Denim Jeans" style="width:100%">
                     <h1>Café Expresso</h1><br>
                     <p class="price">R$19.99</p>
                     <br>
@@ -106,18 +108,73 @@
                     <p><button>Add to Cart</button></p>
                 </div>
             
-            
-                <div class="card">
-                    <img src="Img/cafe2.jpg" alt="Denim Jeans" style="width:100%">
-                    <h1>Café Expresso</h1><br>
-                    <p class="price">R$19.99</p><br><br>
-                    <p>Some text about the jeans. Super slim and comfy <br> lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p><br>
-                    <br>
-                    <p><button>Add to Cart</button></p>
-    
-            </div>
+        
     </div>
-        <!-- Fim sobre nos  -->
+        <!-- Fim Produtos  -->
+  
+        <footer class="footer-cafeteria">
+    <div class="footer-cafeteria__container">
+        <!-- Endereço -->
+        <div class="footer-cafeteria__col footer-cafeteria__col-endereco">
+            <h3 class="footer-cafeteria__col-titulo">Endereço</h3>
+            <p class="footer-cafeteria__col-texto">Rua Pedro Henrique, 123 - São Paulo, SP</p>
+        </div>
+
+        <!-- Formas de Pagamento -->
+        <div class="footer-cafeteria__col footer-cafeteria__col-pagamento">
+            <h3 class="footer-cafeteria__col-titulo">Formas de Pagamento</h3>
+            <ul class="footer-cafeteria__col-lista">
+                <li class="footer-cafeteria__col-item">
+                    <i class="footer-cafeteria__col-icon fas fa-credit-card"></i> Cartões de Crédito
+                </li>
+                <li class="footer-cafeteria__col-item">
+                    <i class="footer-cafeteria__col-icon fas fa-university"></i> Transferência Bancária
+                </li>
+                <li class="footer-cafeteria__col-item">
+                    <i class="footer-cafeteria__col-icon fas fa-wallet"></i> PayPal
+                </li>
+                <li class="footer-cafeteria__col-item">
+                    <i class="footer-cafeteria__col-icon fas fa-cash-register"></i> Dinheiro
+                </li>
+            </ul>
+        </div>
+
+        <!-- Horários de Funcionamento -->
+        <div class="footer-cafeteria__col footer-cafeteria__col-horarios">
+            <h3 class="footer-cafeteria__col-titulo">Horários de Funcionamento</h3>
+            <p class="footer-cafeteria__col-texto">Segunda a Sexta: 8h às 18h</p>
+            <p class="footer-cafeteria__col-texto">Sábado: 9h às 14h</p>
+            <p class="footer-cafeteria__col-texto">Domingo: Fechado</p>
+        </div>
+
+        <!-- Contato -->
+        <div class="footer-cafeteria__col footer-cafeteria__col-contato">
+            <h3 class="footer-cafeteria__col-titulo">Contato</h3>
+            <p class="footer-cafeteria__col-texto"><i class="footer-cafeteria__col-icon fas fa-phone"></i> (11) 1234-5678</p>
+            <p class="footer-cafeteria__col-texto"><i class="footer-cafeteria__col-icon fas fa-envelope"></i> contato@cafeteria.com</p>
+            <p class="footer-cafeteria__col-texto"><i class="footer-cafeteria__col-icon fas fa-map-marker-alt"></i> São Paulo, SP</p>
+        </div>
+
+        <!-- Redes Sociais -->
+        <div class="footer-cafeteria__col footer-cafeteria__col-redes-sociais">
+            <h3 class="footer-cafeteria__col-titulo">Redes Sociais</h3>
+            <div class="footer-cafeteria__col-icons">
+                <a href="https://facebook.com" target="_blank" class="footer-cafeteria__col-social-icon">
+                    <i class="footer-cafeteria__col-icon-facebook fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="footer-cafeteria__col-social-icon">
+                    <i class="footer-cafeteria__col-icon-instagram fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="footer-cafeteria__col-social-icon">
+                    <i class="footer-cafeteria__col-icon-twitter fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <h3 style="padding:5px;padding-top:20px">Copyright Pedro Henrique 2025</h3>
+</footer>
 
 
 </body>
